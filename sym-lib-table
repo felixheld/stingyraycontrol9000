@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ws2801)(type Legacy)(uri ${KIPRJMOD}/lib/ws2801.lib)(options "")(descr ""))
+  (lib (name meanwell_led_driver)(type Legacy)(uri ${KIPRJMOD}/lib/meanwell_led_driver.lib)(options "")(descr ""))
+)
