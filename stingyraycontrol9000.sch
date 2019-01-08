@@ -127,7 +127,7 @@ U 1 1 5C2ED0A0
 P 10100 5250
 F 0 "MK1" H 10200 5296 50  0000 L CNN
 F 1 "Mounting_Hole" H 10200 5205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10100 5250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10100 5250 50  0001 C CNN
 F 3 "" H 10100 5250 50  0001 C CNN
 	1    10100 5250
 	1    0    0    -1  
@@ -138,7 +138,7 @@ U 1 1 5C2ED194
 P 10100 5500
 F 0 "MK2" H 10200 5546 50  0000 L CNN
 F 1 "Mounting_Hole" H 10200 5455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10100 5500 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10100 5500 50  0001 C CNN
 F 3 "" H 10100 5500 50  0001 C CNN
 	1    10100 5500
 	1    0    0    -1  
