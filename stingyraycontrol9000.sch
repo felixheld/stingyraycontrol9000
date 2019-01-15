@@ -522,5 +522,5 @@ F 3 "" H 3850 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 1350 3050 2    50   ~ 0
-48V -> R1 = 10k\n24V -> R1 = 4k7
+48V -> R1 = 10k\n36V -> R1 = 8k2\n24V -> R1 = 4k7
 $EndSCHEMATC
