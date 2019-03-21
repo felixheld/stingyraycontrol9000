@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:stingyraycontrol9000-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -123,7 +122,7 @@ F 3 "" H 1450 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Mechanical:MountingHole MK1
 U 1 1 5C2ED0A0
 P 10100 5250
 F 0 "MK1" H 10200 5296 50  0000 L CNN
@@ -134,7 +133,7 @@ F 3 "" H 10100 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Mechanical:MountingHole MK2
 U 1 1 5C2ED194
 P 10100 5500
 F 0 "MK2" H 10200 5546 50  0000 L CNN
@@ -511,16 +510,31 @@ F 3 "~" H 2300 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5C360304
-P 3850 2600
-F 0 "#PWR?" H 3850 2350 50  0001 C CNN
-F 1 "GND" H 3855 2427 50  0000 C CNN
-F 2 "" H 3850 2600 50  0001 C CNN
-F 3 "" H 3850 2600 50  0001 C CNN
-	1    3850 2600
+P 3050 2600
+F 0 "#PWR0101" H 3050 2350 50  0001 C CNN
+F 1 "GND" H 3055 2427 50  0000 C CNN
+F 2 "" H 3050 2600 50  0001 C CNN
+F 3 "" H 3050 2600 50  0001 C CNN
+	1    3050 2600
 	0    1    1    0   
 $EndComp
 Text Notes 1350 3050 2    50   ~ 0
 48V -> R1 = 10k\n36V -> R1 = 8k2\n24V -> R1 = 4k7
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5C93D7BD
+P 3200 2600
+F 0 "JP1" H 3200 2805 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3200 2714 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3200 2600 50  0001 C CNN
+F 3 "~" H 3200 2600 50  0001 C CNN
+	1    3200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2600 3850 2600
+Text Label 3500 2600 0    50   ~ 0
+polarity
 $EndSCHEMATC
